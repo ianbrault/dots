@@ -1,0 +1,22 @@
+### .alias
+### author: Ian Brault
+
+#
+# general aliases
+#
+
+alias ls='ls -G'
+
+#
+# Git aliases
+#
+
+alias gst='git status'
+alias gco='git checkout'
+alias gcm='git commit -m'
+alias gacm='git add --all && git commit -m'
+alias gpo='git push -u origin'
+alias gpom='git push -u origin master'
+
+alias dots='/usr/bin/git --git-dir=$HOME/.dots.git/ --work-tree=$HOME'
+

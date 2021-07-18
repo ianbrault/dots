@@ -1,0 +1,10 @@
+[
+  { "from": "<S-H>", "to": "^", "when": "normalMode || visualMode" },
+  { "from": "<S-L>", "to": "$", "when": "normalMode || visualMode" },
+  { "from": "<S-J>", "to": "12j", "when": "normalMode || visualMode" },
+  { "from": "<S-K>", "to": "12k", "when": "normalMode || visualMode" },
+  { "from": "<S-M>", "to": "<S-J>", "when": "normalMode" },
+
+  { "key": "<Leader>w", "command": "workbench.action.files.save", "when": "normalMode || visualMode" },
+  { "key": "<Leader>c", "command": "editor.action.commentLine", "when": "normalMode || visualMode" }
+]

@@ -1,0 +1,83 @@
+{
+    "editor.cursorBlinking": "solid",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'Source Code Pro',Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [80, 100],
+    "explorer.confirmDelete": false,
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true,
+    "files.trimTrailingWhitespace": true,
+    "python.showStartPage": false,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontSize": 13,
+    "update.mode": "manual",
+    "vim.camelCaseMotion.enable": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["M"],
+            "after": ["J"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["J"],
+            "after": ["1", "2", "j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["1", "2", "k"]
+        },
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.files.save"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        },
+        {
+            "before": ["J"],
+            "after": ["1", "2", "j"]
+        },
+        {
+            "before": ["K"],
+            "after": ["1", "2", "k"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        }
+    ],
+    "workbench.colorTheme": "GitHub Light",
+    "workbench.startupEditor": "newUntitledFile"
+}

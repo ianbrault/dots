@@ -1,0 +1,5 @@
+[user]
+	name = Ian Brault
+	email = ian@brault.dev
+[core]
+	excludesfile = /Users/ianbrault/.gitignore_global
