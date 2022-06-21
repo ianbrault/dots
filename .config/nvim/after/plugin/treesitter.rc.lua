@@ -1,9 +1,13 @@
-if !exists('g:loaded_nvim_treesitter')
-    finish
-endif
+-- treesitter.rc.lua
+--
+-- created 20 June 2022
+-- Ian Brault <ian@brault.dev>
 
-lua <<EOF
-require 'nvim-treesitter.configs'.setup {
+if not vim.fn.exists('g:loaded_nvim_treesitter') then
+    vim.fm.finish()
+end
+
+require('nvim-treesitter.configs').setup({
     highlight = {
         enable = true,
         disable = {},
@@ -22,8 +26,8 @@ require 'nvim-treesitter.configs'.setup {
         "json",
         "python",
         "rust",
+        "svelte",
         "vim",
     }
-}
-EOF
+})
 
