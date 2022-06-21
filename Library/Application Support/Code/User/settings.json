@@ -11,8 +11,6 @@
     "extensions.ignoreRecommendations": true,
     "files.trimTrailingWhitespace": true,
     "python.showStartPage": false,
-    "rust-analyzer.inlayHints.chainingHints": false,
-    "rust-analyzer.inlayHints.parameterHints": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.integrated.fontSize": 13,
@@ -78,6 +76,12 @@
             "commands": ["editor.action.commentLine"]
         }
     ],
-    "workbench.colorTheme": "GitHub Light",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.autoComplete.extraPaths": [
+        "/usr/local/lib/python3.9/site-packages"
+    ],
+    "vsicons.dontShowNewVersionMessage": true
 }

@@ -1,5 +1,7 @@
-### .zshrc
-### author: Ian Brault
+# .zshrc
+#
+# Ian Brault <ian@brault.dev>
+# modified 20 June 2022
 
 # set prompt
 export PS1=$'\n'"%B%F{blue}%4~%f %F{green}%#%f%b "
@@ -16,3 +18,6 @@ export PATH="$HOME/.poetry/bin:$PATH"
 
 # initialize pyenv
 eval "$(pyenv init -)"
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
