@@ -1,7 +1,7 @@
 -- init.lua
 --
--- created 19 June 2022
 -- Ian Brault <ian@brault.dev>
+-- modified 23 June 2022
 
 -- styling
 vim.opt.showcmd = true
@@ -10,6 +10,11 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.ruler = true
 vim.opt.cursorline = true
+
+-- remove trailing whitespace on save
+vim.cmd [[
+    autocmd BufWritePre * :%s/\s\+$//e
+]]
 
 -- true color
 if vim.fn.exists("&termguicolors") and vim.fn.exists("&winblend") then

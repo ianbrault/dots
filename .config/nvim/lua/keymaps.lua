@@ -1,7 +1,7 @@
 -- keymaps.lua
 --
--- created 19 June 2022
--- Ian Brault <ian@brault.dev> 
+-- Ian Brault <ian@brault.dev>
+-- modified 23 June 2022
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -30,4 +30,7 @@ vim.keymap.set("n", "<Leader>q", ":q<CR>")
 
 -- auto-format
 vim.keymap.set("n", "<Leader>f", ":Autoformat<CR>")
+
+-- yank an entire line
+vim.keymap.set("n", "Y", "Vy")
 
